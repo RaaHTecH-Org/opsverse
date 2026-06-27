@@ -1,0 +1,80 @@
+// Simplified but recognizable continent outlines for SVG world maps
+// ViewBox: 0 0 1000 500 (equirectangular projection approximation)
+
+export interface ContinentPath {
+  id: string;
+  name: string;
+  d: string;
+}
+
+export const continentPaths: ContinentPath[] = [
+  {
+    id: "north-america",
+    name: "North America",
+    d: "M55,95 L75,78 L95,72 L120,68 L145,65 L170,68 L190,75 L210,82 L225,92 L240,105 L248,120 L250,138 L245,155 L238,168 L228,178 L218,185 L210,192 L200,198 L195,210 L188,218 L178,225 L168,230 L160,232 L155,225 L150,218 L145,225 L138,230 L132,228 L128,220 L122,215 L118,210 L112,208 L108,202 L105,195 L100,188 L95,180 L88,172 L82,165 L78,155 L72,145 L68,135 L62,125 L58,115 L55,105 Z",
+  },
+  {
+    id: "south-america",
+    name: "South America",
+    d: "M175,255 L185,248 L195,245 L205,248 L215,255 L222,265 L228,278 L232,290 L230,305 L228,318 L225,330 L220,342 L215,355 L210,365 L205,375 L198,382 L192,388 L185,390 L180,385 L175,378 L172,368 L168,358 L165,345 L162,332 L160,318 L158,305 L158,290 L160,275 L165,265 Z",
+  },
+  {
+    id: "europe",
+    name: "Europe",
+    d: "M440,62 L450,58 L462,55 L475,52 L488,55 L498,58 L508,62 L518,68 L528,72 L535,78 L540,85 L542,92 L540,100 L535,108 L530,115 L522,120 L515,125 L508,130 L500,132 L492,135 L485,132 L478,128 L472,125 L465,120 L458,115 L452,108 L448,100 L445,92 L442,82 L440,72 Z",
+  },
+  {
+    id: "africa",
+    name: "Africa",
+    d: "M445,148 L455,142 L468,138 L480,136 L492,138 L505,142 L515,148 L525,155 L532,165 L538,178 L542,192 L544,208 L542,225 L540,240 L535,255 L528,268 L520,280 L512,290 L502,298 L492,305 L482,308 L472,305 L462,298 L455,288 L448,275 L442,262 L438,248 L435,232 L434,218 L435,202 L438,188 L440,175 L442,162 Z",
+  },
+  {
+    id: "asia",
+    name: "Asia",
+    d: "M545,48 L565,42 L588,38 L612,35 L638,38 L662,42 L685,48 L705,55 L722,65 L738,78 L750,92 L758,108 L762,125 L760,142 L755,158 L748,172 L738,185 L725,195 L710,202 L695,208 L678,212 L660,215 L642,212 L625,208 L610,200 L598,192 L588,182 L578,172 L568,160 L558,148 L550,135 L545,120 L540,108 L538,95 L540,78 L542,62 Z",
+  },
+  {
+    id: "australia",
+    name: "Australia",
+    d: "M718,310 L735,305 L752,302 L768,305 L782,312 L792,322 L798,335 L796,348 L790,360 L780,370 L768,375 L755,378 L742,375 L730,368 L722,358 L716,345 L714,332 L715,320 Z",
+  },
+  {
+    id: "greenland",
+    name: "Greenland",
+    d: "M295,32 L310,28 L325,25 L340,28 L350,35 L355,45 L352,55 L345,62 L335,65 L322,62 L310,58 L302,50 L298,42 Z",
+  },
+  {
+    id: "indonesia",
+    name: "Indonesia",
+    d: "M680,248 L695,245 L710,242 L725,245 L740,248 L748,255 L745,262 L738,268 L725,270 L710,268 L698,265 L688,260 L682,255 Z",
+  },
+  {
+    id: "japan",
+    name: "Japan",
+    d: "M778,95 L785,88 L790,82 L795,88 L798,98 L795,108 L790,118 L785,125 L780,118 L778,108 Z",
+  },
+  {
+    id: "uk",
+    name: "United Kingdom",
+    d: "M432,68 L438,62 L442,58 L446,62 L445,70 L442,76 L438,78 L434,75 Z",
+  },
+  {
+    id: "new-zealand",
+    name: "New Zealand",
+    d: "M825,375 L830,368 L835,365 L838,370 L836,378 L832,385 L828,382 Z",
+  },
+  {
+    id: "madagascar",
+    name: "Madagascar",
+    d: "M558,288 L562,282 L566,278 L570,282 L568,292 L564,298 L560,295 Z",
+  },
+];
+
+// Key city/location coordinates on the 1000x500 viewbox
+export interface MapLocation {
+  label: string;
+  x: number;
+  y: number;
+}
+
+export const hqTarget: MapLocation = { label: "HQ — New York", x: 230, y: 145 };

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://raahcomcenter.lovable.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://raahcomcenter.lovable.app/incidents</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://raahcomcenter.lovable.app/requests</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://raahcomcenter.lovable.app/assets</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://raahcomcenter.lovable.app/copilot</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://raahcomcenter.lovable.app/digital-twin</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://raahcomcenter.lovable.app/autopilot</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://raahcomcenter.lovable.app/root-causes</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+</urlset>

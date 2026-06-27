@@ -1,0 +1,16 @@
+# Raahtech Command Center
+
+> AI-Assisted Enterprise Operations Platform integrating ServiceNow-style workflows with Microsoft enterprise environments and Azure AI intelligence.
+
+Raahtech Command Center unifies IT operations, incident response, service request management, asset oversight, and AI-driven automation in a single console designed for enterprise SRE, security, and engineering teams.
+
+## Pages
+
+- [Operations Dashboard](/): Real-time view of service health, ops rhythm, and threat posture.
+- [Incidents](/incidents): Triage, investigate, and resolve incidents across services.
+- [Service Requests](/requests): Self-service catalog and request lifecycle tracking.
+- [Assets](/assets): Inventory and posture for infrastructure and endpoints.
+- [AI Copilot](/copilot): Conversational assistant for operations and investigations.
+- [Digital Twin](/digital-twin): Live topology and dependency simulation.
+- [AI Autopilot](/autopilot): Automated remediation policies and previews.
+- [Root Causes](/root-causes): Cluster analysis of recurring failure signals.
